@@ -1,0 +1,206 @@
+
+body #wrapper {
+  font-size: 18px;
+  font-family: "helvetica", "arial", sans-serif;
+  padding: 0;
+  min-height: 100%; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%; }
+
+#header {
+  padding: 0.5em 0.5em 0.5em 5%;
+  background-color: black;
+  text-align: left;
+  z-index: 8;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 95%;
+  display: inline-block; }
+  #header ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    padding-right: 2em;
+    float: right; }
+    #header ul li a {
+      text-decoration: none;
+      color: white; }
+    #header ul li #search {
+      padding: 0.2em;
+      margin: 0; }
+  #header h2 {
+    font-size: 1.8em;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    float: left; }
+
+#header-panel {
+  background: url("../img/wallpaper1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  padding: 3em; }
+  #header-panel h1 {
+    width: 50%;
+    font-size: 2.2em;
+    border-bottom: 0;
+    padding: 1em 0;
+    color: black;
+    font-weight: bold;
+    text-align: center; }
+  #header-panel #header-quote {
+    width: 50%;
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin: 1.3em;
+    text-align: center;
+    max-height: 100px; }
+    #header-panel #header-quote:hover {
+      color: red; }
+  #header-panel #header-author {
+    width: 50%;
+    font-size: 1.3em;
+    text-align: right; }
+  #header-panel .button {
+    width: 50%;
+    padding: 3em 5em 8em 6em; }
+    #header-panel .button .btn {
+      font-size: 1em;
+      text-align: center;
+      border: 1px solid white;
+      color: white;
+      border-radius: 4em;
+      background: transparent;
+      padding: 1em;
+      width: 220px; }
+
+#login-panel, #signin-panel {
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #e6e6ff;
+  padding: 2em;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 5px #888888; }
+
+#list-panel {
+  width: 80%;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #ddff99;
+  padding: 2em;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 5px #888888; }
+  #list-panel h1 {
+    display: inline-block;
+    float: left; }
+  #list-panel #add-new {
+    margin: 36px 0;
+    padding: 5px 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px #888888;
+    background-color: #E8E8E8;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    float: right; }
+  #list-panel table {
+    width: 100%;
+    margin: 0;
+    padding: 0.3em;
+    font-size: 0.8em;
+    border: 1px solid black;
+    cellspacing: 0; }
+    #list-panel table th {
+      font-weight: bold; }
+    #list-panel table td, #list-panel table th {
+      border: 1px solid grey;
+      padding: 0.3em;
+      line-height: 1.1em; }
+    #list-panel table .td-numbers {
+      text-align: center; }
+    #list-panel table .td-quote {
+      width: 50%; }
+    #list-panel table .btn-edit {
+      text-align: center; }
+    #list-panel table .btn-delete {
+      text-align: center; }
+
+#edit-panel {
+  width: 50%;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #ffe6e6;
+  padding: 2em;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 5px #888888; }
+  #edit-panel textarea {
+    width: 80%;
+    height: 70px;
+    border-radius: 3px;
+    text-align: left; }
+  #edit-panel input#active {
+    width: 10%;
+    width: 1.3em;
+    height: 1.3em;
+    margin: 2em 1em 1em 0; }
+  #edit-panel label[for="active"] {
+    display: inline; }
+
+h1 {
+  text-align: left;
+  font-size: 2em;
+  margin: 0.5em 0 0.8em 0;
+  padding: 0.1em 0;
+  border-bottom: 1px solid gray; }
+
+p {
+  width: 100%;
+  font-size: 0.8em; }
+
+label {
+  display: block;
+  width: 100%;
+  margin: 0.8em 0 0.5em 0; }
+
+input {
+  width: 58%;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  border-radius: 3px; }
+
+.error-user, .error-pass, .error-r-pass, .error-email {
+  display: none;
+  color: red; }
+
+select {
+  width: 60%;
+  padding: 0.4em;
+  border-radius: 3px; }
+
+button {
+  display: inline-block;
+  font-size: 1.1em;
+  width: 110px;
+  padding: 0.1em;
+  margin: 1em 1em 1em 0;
+  box-shadow: 5px 5px 2px #888888;
+  border-radius: 3px; }
+
+a {
+  text-decoration: none;
+  color: grey; }
+
+/*# sourceMappingURL=style.css.map */
