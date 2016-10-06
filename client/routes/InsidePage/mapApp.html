@@ -1,0 +1,13 @@
+<div >
+<div class="map" id="map">{{'map'}}</div>
+<button ng-click="calcRoute()" >{{'a'}}Calculate Route</button>
+<div id="floating-panel">
+ <form name="myForm">
+    <label for="repeatSelect"> Repeat select: </label>
+    <select name="repeatSelect" id="repeatSelect" ng-model="data.model"> //data.model!!!!!!!!!!!
+      <option ng-repeat="option in data.availableOptions" value="{{option.id}}">{{option.name}}</option>
+    </select>
+  </form>
+  <hr>
+  <tt>model = {{data.model}}</tt><br/>
+</div>
